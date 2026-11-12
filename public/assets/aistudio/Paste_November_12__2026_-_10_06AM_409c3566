@@ -1,0 +1,1492 @@
+IELTS MASTER — COMPLETE WEBSITE DEVELOPMENT PROMPT
+
+PROJECT OBJECTIVE
+
+Build a complete, production-ready IELTS preparation platform called IELTS MASTER.
+
+The platform must be a fully functional web application, not a static website, visual mockup, prototype, or demonstration.
+
+It is designed for students in Kazakhstan who want to prepare for the IELTS Academic and General Training examinations.
+
+The application must include a complete student experience, a comprehensive IELTS learning system, secure authentication, a real database, student approval workflows, a Super Admin dashboard, administrator management, progress tracking, and fully functional educational content.
+
+The most important requirements are:
+	1.	The entire website must be in English only.
+	2.	The platform must contain substantial, authentic IELTS learning materials.
+	3.	There must be at least 36 complete tasks for each of the four IELTS skills.
+	4.	Grammar must contain at least 36 complete exercises.
+	5.	Vocabulary must contain at least 500 unique English words.
+	6.	The platform must include multiple complete IELTS mock examinations.
+	7.	The website owner must have permanent Super Admin privileges.
+	8.	Every new student registration must require Super Admin approval.
+	9.	The Super Admin must have complete control over student accounts and access.
+	10.	All functionality must work through a real backend and database.
+
+Do not simplify, omit, or replace any of these requirements.
+
+⸻
+
+1. LANGUAGE AND REGIONAL REQUIREMENTS
+
+English-only platform
+
+The entire website must use English exclusively.
+
+This applies to every part of the application:
+	•	Homepage.
+	•	Navigation.
+	•	Buttons.
+	•	Menus.
+	•	Student dashboard.
+	•	Administrator dashboard.
+	•	Super Admin dashboard.
+	•	Registration.
+	•	Login.
+	•	Password recovery.
+	•	Notifications.
+	•	Error messages.
+	•	Success messages.
+	•	Instructions.
+	•	Settings.
+	•	Reports.
+	•	Statistics.
+	•	IELTS exercises.
+	•	Grammar explanations.
+	•	Vocabulary explanations.
+	•	Mock examinations.
+	•	All other website content.
+
+Do not use Kazakh or Russian words anywhere in the interface.
+
+Do not use Cyrillic characters anywhere in the website interface or educational content.
+
+Do not automatically translate the interface according to the user’s location.
+
+English must remain the default and only interface language.
+
+Kazakh sample names
+
+Use authentic Kazakh names for all sample student accounts and demonstration data.
+
+Examples:
+	•	Ayaulym Yessengenova
+	•	Aruzhan Sarsenova
+	•	Alikhan Nurlanov
+	•	Daniyar Abdrakhmanov
+	•	Madina Kassymova
+	•	Aidana Muratova
+	•	Nurasyl Bekov
+	•	Zhansaya Yermekova
+
+Do not use typical English or American names for demonstration students.
+
+Names may be written in Latin characters. The rest of the website must remain entirely in English.
+
+Regional settings
+	•	Default timezone: Asia/Almaty.
+	•	Support students based in Kazakhstan.
+	•	Use appropriate local date and time settings.
+	•	Keep the entire platform in English regardless of the user’s location.
+
+⸻
+
+2. DESIGN AND VISUAL IDENTITY
+
+Create a premium, modern, elegant educational platform.
+
+The visual identity should resemble a professionally developed international IELTS preparation product.
+
+Design direction
+	•	Minimalist.
+	•	Modern.
+	•	Premium.
+	•	Professional.
+	•	Academic.
+	•	Clean.
+	•	Elegant.
+	•	Easy to navigate.
+
+Use a consistent design system throughout the application.
+
+Visual elements
+	•	Professional typography.
+	•	Carefully selected color palette.
+	•	Modern cards.
+	•	Clean dashboard layouts.
+	•	Beautiful progress indicators.
+	•	Interactive charts.
+	•	Clear navigation.
+	•	Well-designed forms.
+	•	Subtle animations.
+	•	Smooth page transitions.
+	•	Consistent icons.
+	•	Responsive layouts.
+	•	Professional loading states.
+	•	Helpful empty states.
+	•	Clear success and error messages.
+
+User experience
+
+The website must be intuitive even for students who are using it for the first time.
+
+Students should immediately understand:
+	•	Where to start studying.
+	•	How to select an IELTS skill.
+	•	How to complete exercises.
+	•	How to take a mock test.
+	•	Where to find their results.
+	•	How to track their progress.
+
+The Super Admin should have a separate, comprehensive administrative interface.
+
+Do not mix the student dashboard with administrative functionality.
+
+Avoid:
+	•	Cluttered layouts.
+	•	Excessive gradients.
+	•	Random colors.
+	•	Oversized typography.
+	•	Unnecessary decorative elements.
+	•	Empty cards.
+	•	Fake statistics.
+	•	Non-functional buttons.
+	•	Placeholder pages.
+
+The design must be consistent across all pages.
+
+⸻
+
+3. WEBSITE STRUCTURE AND NAVIGATION
+
+Create the following main sections.
+
+Public pages
+	1.	Home.
+	2.	About IELTS MASTER.
+	3.	IELTS Preparation.
+	4.	Features.
+	5.	Contact.
+	6.	Student Registration.
+	7.	Login.
+	8.	Password Recovery.
+
+Student platform
+	1.	Student Dashboard.
+	2.	Reading.
+	3.	Listening.
+	4.	Writing.
+	5.	Speaking.
+	6.	Grammar.
+	7.	Vocabulary.
+	8.	Full Mock Tests.
+	9.	My Results.
+	10.	My Progress.
+	11.	Study History.
+	12.	Profile.
+	13.	Settings.
+
+Administrative platform
+	1.	Super Admin Dashboard.
+	2.	Student Management.
+	3.	Pending Registrations.
+	4.	Administrator Management.
+	5.	Content Management.
+	6.	Reading Management.
+	7.	Listening Management.
+	8.	Writing Management.
+	9.	Speaking Management.
+	10.	Grammar Management.
+	11.	Vocabulary Management.
+	12.	Mock Test Management.
+	13.	Analytics and Reports.
+	14.	Platform Settings.
+	15.	Activity Logs.
+
+Every navigation item must lead to a real, functional page.
+
+⸻
+
+4. AUTHENTICATION AND USER ACCOUNTS
+
+Implement a complete and secure authentication system.
+
+Registration
+
+Students must be able to register using:
+	•	Full name.
+	•	Email address.
+	•	Password.
+	•	Password confirmation.
+	•	Optional phone number.
+	•	Current English level.
+	•	Target IELTS band score.
+	•	Preferred IELTS examination type.
+
+IELTS examination types:
+	•	Academic.
+	•	General Training.
+
+Login
+
+Implement:
+	•	Email and password login.
+	•	Secure session management.
+	•	Logout.
+	•	Password recovery.
+	•	Protected routes.
+	•	Clear validation messages.
+
+Account statuses
+
+Every student account must have one of the following statuses:
+	•	PENDING APPROVAL.
+	•	APPROVED.
+	•	REJECTED.
+	•	SUSPENDED.
+	•	DEACTIVATED.
+
+Registration must never automatically grant access to protected learning materials.
+
+⸻
+
+5. STUDENT APPROVAL SYSTEM
+
+Implement a complete registration approval workflow.
+
+When a student registers:
+	1.	Create the student account in the database.
+	2.	Assign the STUDENT role.
+	3.	Set the account status to PENDING APPROVAL.
+	4.	Display a clear pending approval message.
+	5.	Prevent access to protected learning materials.
+	6.	Display the registration request in the Super Admin dashboard.
+	7.	Allow the Super Admin to approve or reject the registration.
+
+After approval:
+	•	Change the account status to APPROVED.
+	•	Allow the student to log in and access the learning platform.
+	•	Save the approval date and the administrator responsible for the action.
+
+After rejection:
+	•	Change the account status to REJECTED.
+	•	Block access to protected content.
+	•	Display an appropriate status message.
+
+The Super Admin must also be able to suspend, deactivate, and restore accounts at any time.
+
+Important security requirement
+
+Account approval must be enforced by the backend.
+
+Do not simply hide dashboard components or buttons from unapproved users.
+
+Unapproved students must not be able to access protected information by:
+	•	Entering a direct URL.
+	•	Refreshing a protected page.
+	•	Calling an API endpoint.
+	•	Manipulating frontend state.
+	•	Changing browser storage.
+
+All access must be verified through backend authorization.
+
+⸻
+
+6. SUPER ADMIN ACCOUNT AND PRIVILEGES
+
+The platform owner must have the SUPER ADMIN role.
+
+The initial Super Admin email address is:
+
+[INSERT MY EMAIL ADDRESS HERE]
+
+Use this email as the identity for the initial Super Admin account.
+
+Initial setup
+
+Implement a secure first-time Super Admin initialization process.
+
+Requirements:
+	•	The specified email must receive the SUPER ADMIN role through a secure backend/database initialization process.
+	•	The Super Admin must be able to create and manage their own secure login credentials.
+	•	Never expose passwords or secret credentials in frontend code.
+	•	Never allow public users to register as Super Admin.
+	•	Never allow students to modify their own roles.
+	•	Never allow administrators to grant themselves Super Admin privileges.
+	•	Never allow another administrator to remove or downgrade the Super Admin.
+	•	Prevent unauthorized role escalation.
+
+The Super Admin must retain full control of the platform.
+
+Super Admin permissions
+
+The Super Admin must be able to:
+
+Student management
+	•	View all students.
+	•	View pending registration requests.
+	•	Approve registrations.
+	•	Reject registrations.
+	•	Activate accounts.
+	•	Deactivate accounts.
+	•	Suspend accounts.
+	•	Restore accounts.
+	•	Edit student profiles.
+	•	Delete student accounts.
+	•	View student activity.
+	•	View individual learning progress.
+	•	View examination results.
+
+Administrator management
+	•	Create administrators.
+	•	Edit administrator profiles.
+	•	Assign permissions.
+	•	Remove permissions.
+	•	Deactivate administrators.
+	•	Reactivate administrators.
+	•	Delete administrator accounts.
+
+Educational content management
+	•	Create exercises.
+	•	Edit exercises.
+	•	Delete exercises.
+	•	Publish content.
+	•	Unpublish content.
+	•	Manage all IELTS modules.
+	•	Manage grammar content.
+	•	Manage vocabulary.
+	•	Manage mock examinations.
+	•	Upload audio files.
+	•	Upload images and other learning resources.
+
+Platform management
+	•	Manage website settings.
+	•	View analytics.
+	•	View activity logs.
+	•	Manage student access.
+	•	Manage administrator permissions.
+	•	Control all platform content.
+
+The Super Admin must have unrestricted access to all legitimate administrative functions.
+
+⸻
+
+7. SUPER ADMIN DASHBOARD
+
+Create a complete, professional administrative dashboard.
+
+Overview statistics
+
+Display:
+	•	Total registered students.
+	•	Total approved students.
+	•	Pending approval requests.
+	•	Rejected students.
+	•	Suspended students.
+	•	Deactivated students.
+	•	Active students.
+	•	Total completed exercises.
+	•	Total mock examinations completed.
+	•	Average IELTS performance.
+	•	Recent student activity.
+
+All statistics must come from actual database records.
+
+Do not use randomly generated or fabricated statistics.
+
+Student management table
+
+Display:
+	•	Full name.
+	•	Email address.
+	•	Registration date.
+	•	Account status.
+	•	Current English level.
+	•	Target IELTS score.
+	•	Last login.
+	•	Completed exercises.
+	•	Completed mock examinations.
+	•	Overall progress.
+
+Include:
+	•	Search.
+	•	Filtering.
+	•	Sorting.
+	•	Pagination.
+	•	Individual student profiles.
+
+Student actions
+
+The Super Admin must be able to:
+	•	Approve.
+	•	Reject.
+	•	Activate.
+	•	Deactivate.
+	•	Suspend.
+	•	Restore.
+	•	Edit.
+	•	Delete.
+	•	View student details.
+
+Use confirmation dialogs for important administrative actions.
+
+Student profile
+
+Each student profile should contain:
+	•	Personal information.
+	•	Registration information.
+	•	Account status.
+	•	Learning activity.
+	•	Exercise history.
+	•	IELTS mock test results.
+	•	Skill performance.
+	•	Progress statistics.
+	•	Last login.
+	•	Administrative activity related to the account.
+
+Content management
+
+Provide complete management functionality for:
+	•	Reading.
+	•	Listening.
+	•	Writing.
+	•	Speaking.
+	•	Grammar.
+	•	Vocabulary.
+	•	Mock examinations.
+
+The Super Admin must be able to create, edit, publish, unpublish, and delete content.
+
+Analytics
+
+Include real charts and statistics for:
+	•	Student registration trends.
+	•	Student activity.
+	•	Exercise completion.
+	•	Reading performance.
+	•	Listening performance.
+	•	Writing performance.
+	•	Speaking performance.
+	•	Grammar performance.
+	•	Vocabulary progress.
+	•	Mock examination results.
+	•	IELTS band score distribution.
+
+⸻
+
+8. ADMINISTRATOR DASHBOARD
+
+Create a separate administrator dashboard.
+
+Administrators should be able to manage educational content and student activity according to the permissions assigned by the Super Admin.
+
+Possible permissions:
+	•	View students.
+	•	Manage exercises.
+	•	Manage Reading content.
+	•	Manage Listening content.
+	•	Manage Writing content.
+	•	Manage Speaking content.
+	•	Manage Grammar content.
+	•	Manage Vocabulary content.
+	•	Manage Mock Tests.
+	•	View student results.
+	•	View analytics.
+
+The Super Admin must control all administrator permissions.
+
+Administrators must not be able to:
+	•	Access Super Admin-only settings.
+	•	Modify the Super Admin account.
+	•	Change their own role.
+	•	Grant themselves additional permissions.
+	•	Remove the Super Admin.
+	•	Override the Super Admin’s decisions.
+
+⸻
+
+9. STUDENT DASHBOARD
+
+Create a personalized student dashboard.
+
+Include:
+
+Welcome section
+	•	Personalized greeting.
+	•	Student name.
+	•	Current English level.
+	•	Target IELTS band score.
+	•	Preferred IELTS examination type.
+
+Learning overview
+	•	Overall learning progress.
+	•	Reading progress.
+	•	Listening progress.
+	•	Writing progress.
+	•	Speaking progress.
+	•	Grammar progress.
+	•	Vocabulary progress.
+
+Quick access
+
+Create visually attractive cards for:
+	•	Reading.
+	•	Listening.
+	•	Writing.
+	•	Speaking.
+	•	Grammar.
+	•	Vocabulary.
+	•	Mock Tests.
+
+Additional dashboard components
+	•	Recent activity.
+	•	Recommended exercises.
+	•	Continue learning.
+	•	Completed tasks.
+	•	Upcoming practice goals.
+	•	Recent results.
+	•	Study streak.
+	•	Learning statistics.
+
+All information must be personalized and retrieved from the database.
+
+⸻
+
+10. IELTS READING MODULE
+
+Create a complete IELTS Reading preparation system containing at least 36 fully developed Reading tasks.
+
+The tasks must reflect authentic IELTS Academic and General Training question formats.
+
+Include the following question types:
+	1.	Multiple Choice.
+	2.	True / False / Not Given.
+	3.	Yes / No / Not Given.
+	4.	Matching Headings.
+	5.	Matching Information.
+	6.	Matching Features.
+	7.	Matching Sentence Endings.
+	8.	Sentence Completion.
+	9.	Summary Completion.
+	10.	Note Completion.
+	11.	Table Completion.
+	12.	Flow-chart Completion.
+	13.	Diagram Label Completion.
+	14.	Short Answer Questions.
+
+Content requirements
+
+Each task must contain:
+	•	A complete reading passage.
+	•	Authentic IELTS-style language.
+	•	Appropriate passage length.
+	•	A complete set of questions.
+	•	Answer options where appropriate.
+	•	Correct answers.
+	•	Detailed explanations.
+	•	Difficulty level.
+	•	Estimated completion time.
+	•	Topic category.
+
+Include a range of topics:
+	•	Education.
+	•	Science.
+	•	Technology.
+	•	Environment.
+	•	History.
+	•	Psychology.
+	•	Health.
+	•	Society.
+	•	Culture.
+	•	Business.
+	•	Economics.
+	•	Nature.
+	•	Innovation.
+	•	Global issues.
+
+Functionality
+
+Students must be able to:
+	•	Select a Reading task.
+	•	Read the complete passage.
+	•	Answer questions.
+	•	Navigate between questions.
+	•	Submit answers.
+	•	Receive automatic scoring.
+	•	View correct answers.
+	•	Read explanations.
+	•	Review mistakes.
+	•	Track their Reading progress.
+
+Include realistic time limits.
+
+Do not use short artificial passages as substitutes for complete IELTS-style Reading materials.
+
+⸻
+
+11. IELTS LISTENING MODULE
+
+Create at least 36 fully developed IELTS Listening tasks.
+
+The tasks must reflect authentic IELTS Listening question formats.
+
+Include:
+	1.	Multiple Choice.
+	2.	Matching.
+	3.	Plan / Map / Diagram Labelling.
+	4.	Form Completion.
+	5.	Note Completion.
+	6.	Table Completion.
+	7.	Flow-chart Completion.
+	8.	Sentence Completion.
+	9.	Short Answer Questions.
+
+Audio requirements
+
+Every Listening task must contain actual playable audio.
+
+Do not create Listening exercises that only display written transcripts.
+
+Use real recorded audio or properly generated audio files.
+
+Each task must include:
+	•	Audio player.
+	•	Play and pause controls.
+	•	Audio progress bar.
+	•	Volume control.
+	•	Audio duration.
+	•	Appropriate replay functionality.
+	•	Complete questions.
+	•	Correct answers.
+	•	Answer explanations.
+	•	Difficulty level.
+
+Listening content
+
+Include all four IELTS Listening sections:
+	•	Section 1: Everyday social conversation.
+	•	Section 2: Everyday monologue.
+	•	Section 3: Educational or training conversation.
+	•	Section 4: Academic monologue.
+
+Include different English accents, such as:
+	•	British English.
+	•	Australian English.
+	•	Other appropriate international English accents.
+
+Functionality
+
+Students must be able to:
+	•	Play audio.
+	•	Answer questions.
+	•	Navigate between questions.
+	•	Submit their answers.
+	•	Receive automatic scoring.
+	•	Review incorrect answers.
+	•	View explanations.
+	•	Track their Listening performance.
+
+⸻
+
+12. IELTS WRITING MODULE
+
+Create at least 36 complete IELTS Writing tasks.
+
+Include both IELTS Academic and IELTS General Training.
+
+Academic Writing Task 1
+
+Include:
+	•	Line graphs.
+	•	Bar charts.
+	•	Pie charts.
+	•	Tables.
+	•	Maps.
+	•	Process diagrams.
+	•	Mixed charts.
+
+Each task must include:
+	•	A complete IELTS-style visual prompt.
+	•	Clear instructions.
+	•	A realistic writing requirement.
+	•	A minimum word count.
+	•	Relevant assessment criteria.
+
+General Training Writing Task 1
+
+Include:
+	•	Formal letters.
+	•	Semi-formal letters.
+	•	Informal letters.
+
+Each task must include a realistic situation and clearly defined points that the student must address.
+
+Writing Task 2
+
+Include:
+	•	Opinion essays.
+	•	Discussion essays.
+	•	Advantages and disadvantages essays.
+	•	Problem and solution essays.
+	•	Two-part question essays.
+
+Writing editor
+
+Provide:
+	•	A functional text editor.
+	•	Word counter.
+	•	Character counter.
+	•	Writing timer.
+	•	Task instructions.
+	•	Save draft functionality.
+	•	Submission functionality.
+	•	Previous submission history.
+
+Model answers
+
+Provide model answers at appropriate IELTS levels, including:
+	•	Band 6.0.
+	•	Band 7.0.
+	•	Band 8.0.
+	•	Band 9.0.
+
+Assessment
+
+Evaluate writing according to the official IELTS assessment criteria:
+	1.	Task Achievement / Task Response.
+	2.	Coherence and Cohesion.
+	3.	Lexical Resource.
+	4.	Grammatical Range and Accuracy.
+
+Provide:
+	•	Estimated band score where appropriate.
+	•	Detailed feedback.
+	•	Grammar corrections.
+	•	Vocabulary suggestions.
+	•	Structural recommendations.
+	•	Areas for improvement.
+
+If AI evaluation is implemented, it must provide meaningful feedback based on IELTS criteria.
+
+Do not generate arbitrary scores or pretend that a submission has been evaluated when no evaluation has taken place.
+
+⸻
+
+13. IELTS SPEAKING MODULE
+
+Create at least 36 complete IELTS Speaking practice tasks.
+
+Include all three IELTS Speaking parts.
+
+Part 1 — Introduction and Interview
+
+Include:
+	•	Personal topics.
+	•	Everyday activities.
+	•	Education.
+	•	Work.
+	•	Hobbies.
+	•	Family.
+	•	Technology.
+	•	Travel.
+	•	Food.
+	•	Daily routines.
+
+Part 2 — Individual Long Turn
+
+Include:
+	•	Complete IELTS-style cue cards.
+	•	One-minute preparation.
+	•	Two-minute speaking practice.
+	•	Relevant follow-up questions.
+
+Part 3 — Discussion
+
+Include:
+	•	Abstract topics.
+	•	Society.
+	•	Education.
+	•	Technology.
+	•	Environment.
+	•	Culture.
+	•	Global issues.
+	•	More complex discussion questions.
+
+Speaking functionality
+
+Provide:
+	•	Audio recording.
+	•	Microphone permissions.
+	•	Recording timer.
+	•	Playback functionality.
+	•	Preparation timer.
+	•	Speaking timer.
+	•	Model answers.
+	•	Useful vocabulary.
+	•	Suggested expressions.
+	•	Topic-related phrases.
+
+Feedback
+
+Where technically supported, provide:
+	•	Fluency and coherence feedback.
+	•	Lexical resource feedback.
+	•	Grammar feedback.
+	•	Pronunciation feedback.
+	•	Estimated IELTS band score.
+
+If speech recognition or AI speaking evaluation is implemented, it must actually process the student’s recording.
+
+Do not display fabricated feedback or arbitrary scores.
+
+Students must be able to review their previous speaking practice.
+
+⸻
+
+14. GRAMMAR MODULE
+
+Create at least 36 complete Grammar exercises.
+
+Cover the following topics:
+	1.	Present Simple.
+	2.	Present Continuous.
+	3.	Present Perfect.
+	4.	Present Perfect Continuous.
+	5.	Past Simple.
+	6.	Past Continuous.
+	7.	Past Perfect.
+	8.	Past Perfect Continuous.
+	9.	Future Forms.
+	10.	Modal Verbs.
+	11.	Passive Voice.
+	12.	Zero Conditional.
+	13.	First Conditional.
+	14.	Second Conditional.
+	15.	Third Conditional.
+	16.	Mixed Conditionals.
+	17.	Relative Clauses.
+	18.	Reported Speech.
+	19.	Articles.
+	20.	Prepositions.
+	21.	Gerunds and Infinitives.
+	22.	Comparatives and Superlatives.
+	23.	Subject-Verb Agreement.
+	24.	Sentence Structures.
+	25.	Complex Sentences.
+	26.	Conjunctions.
+	27.	Punctuation.
+	28.	Word Formation.
+	29.	Countable and Uncountable Nouns.
+	30.	Quantifiers.
+	31.	Determiners.
+	32.	Pronouns.
+	33.	Adjectives and Adverbs.
+	34.	Linking Words.
+	35.	Inversion.
+	36.	Advanced Grammar Structures.
+
+Each topic must contain:
+	•	Clear explanations in English.
+	•	Examples.
+	•	Complete practice exercises.
+	•	Multiple question types.
+	•	Correct answers.
+	•	Detailed explanations.
+	•	Difficulty levels.
+	•	Progress tracking.
+
+Include exercises suitable for different English proficiency levels.
+
+⸻
+
+15. VOCABULARY MODULE
+
+Create a vocabulary database containing at least 500 unique English words and expressions.
+
+Do not use repeated entries to reach the minimum.
+
+Vocabulary categories
+
+Organize words into:
+	•	Education.
+	•	Technology.
+	•	Environment.
+	•	Health.
+	•	Society.
+	•	Culture.
+	•	Business.
+	•	Science.
+	•	Travel.
+	•	Work.
+	•	Government.
+	•	Media.
+	•	Psychology.
+	•	Economics.
+	•	Crime.
+	•	Globalization.
+	•	IELTS Academic Vocabulary.
+	•	IELTS Writing Vocabulary.
+	•	IELTS Speaking Vocabulary.
+
+Each vocabulary entry must include
+	•	English word or expression.
+	•	Definition in English.
+	•	Example sentence.
+	•	Part of speech.
+	•	Synonyms where appropriate.
+	•	Phonetic transcription.
+	•	Difficulty level.
+	•	Topic category.
+
+Vocabulary functionality
+
+Implement:
+	•	Search.
+	•	Category filters.
+	•	Difficulty filters.
+	•	Favorite words.
+	•	Personal vocabulary lists.
+	•	Flashcards.
+	•	Spaced repetition.
+	•	Vocabulary quizzes.
+	•	Review sessions.
+	•	Learning progress.
+	•	Previously learned words.
+	•	Words that need revision.
+
+The vocabulary system must work with real database records.
+
+⸻
+
+16. FULL IELTS MOCK EXAMINATIONS
+
+Create multiple complete IELTS mock examinations.
+
+Include:
+	•	IELTS Academic.
+	•	IELTS General Training.
+
+Each complete mock examination must contain all four skills:
+	1.	Reading.
+	2.	Listening.
+	3.	Writing.
+	4.	Speaking.
+
+Mock examination requirements
+
+Reading
+	•	Complete passages.
+	•	Authentic question formats.
+	•	Realistic exam structure.
+	•	Appropriate time limits.
+
+Listening
+	•	Four sections.
+	•	Real audio recordings.
+	•	Complete question sets.
+	•	Automatic scoring.
+
+Writing
+	•	Task 1.
+	•	Task 2.
+	•	Realistic IELTS prompts.
+	•	Writing editor.
+	•	Word counter.
+	•	Submission functionality.
+
+Speaking
+	•	Part 1.
+	•	Part 2.
+	•	Part 3.
+	•	Speaking questions.
+	•	Recording functionality.
+
+Mock examination functionality
+
+Students must be able to:
+	•	Start a mock examination.
+	•	Complete each section.
+	•	Navigate between questions.
+	•	Use realistic timers.
+	•	Submit answers.
+	•	Receive results.
+	•	Review mistakes.
+	•	Compare previous attempts.
+	•	Track score improvement.
+
+Save examination attempts and results in the database.
+
+Do not label incomplete collections of questions as full mock examinations.
+
+⸻
+
+17. RESULTS, SCORING AND PROGRESS TRACKING
+
+Implement a complete student performance tracking system.
+
+Track:
+	•	Total exercises completed.
+	•	Total exercises attempted.
+	•	Accuracy percentage.
+	•	Reading performance.
+	•	Listening performance.
+	•	Writing performance.
+	•	Speaking performance.
+	•	Grammar performance.
+	•	Vocabulary progress.
+	•	Mock examination scores.
+	•	Estimated IELTS band scores where supported.
+	•	Time spent studying.
+	•	Study streaks.
+	•	Historical performance.
+	•	Areas requiring improvement.
+
+Results dashboard
+
+Display:
+	•	Overall performance.
+	•	Individual skill performance.
+	•	Previous test results.
+	•	Score history.
+	•	Performance charts.
+	•	Strengths.
+	•	Weaknesses.
+	•	Recommended practice areas.
+
+Students must only be able to view their own personal results.
+
+Administrators must only access student results according to their assigned permissions.
+
+The Super Admin must be able to view all student performance data.
+
+All results must be calculated from actual submitted answers and stored data.
+
+⸻
+
+18. DATABASE AND BACKEND ARCHITECTURE
+
+Implement a real backend and persistent database.
+
+Recommended technologies:
+	•	React or Next.js.
+	•	TypeScript.
+	•	Supabase or Firebase.
+	•	Secure authentication.
+	•	Database-backed content management.
+	•	Protected API endpoints.
+	•	Backend role verification.
+	•	Row Level Security where supported.
+	•	Secure file storage.
+
+Choose an architecture that works reliably with the Google AI Studio development environment and can be deployed as a separate production website.
+
+Database functionality
+
+The database must support:
+
+Users
+	•	User profiles.
+	•	Authentication identifiers.
+	•	Roles.
+	•	Account statuses.
+	•	Registration dates.
+	•	Last login.
+	•	Student preferences.
+
+Permissions
+	•	Role assignments.
+	•	Administrator permissions.
+	•	Student access control.
+	•	Super Admin privileges.
+
+Learning content
+	•	Reading passages.
+	•	Reading questions.
+	•	Listening audio files.
+	•	Listening questions.
+	•	Writing tasks.
+	•	Speaking tasks.
+	•	Grammar lessons.
+	•	Grammar exercises.
+	•	Vocabulary entries.
+	•	Mock examinations.
+
+Student activity
+	•	Exercise attempts.
+	•	Submitted answers.
+	•	Scores.
+	•	Writing submissions.
+	•	Speaking recordings.
+	•	Vocabulary progress.
+	•	Learning history.
+	•	Mock examination results.
+
+Administration
+	•	Approval requests.
+	•	Administrative actions.
+	•	Content changes.
+	•	Activity logs.
+
+All important data must persist after refreshing the page, logging out, or using another device.
+
+Do not use browser local storage as the primary database.
+
+⸻
+
+19. SECURITY AND DATA PROTECTION
+
+Security must be implemented at the backend level.
+
+Required protections:
+	•	Secure authentication.
+	•	Password hashing through the authentication provider.
+	•	Protected routes.
+	•	Backend authorization.
+	•	Database access policies.
+	•	Row Level Security where supported.
+	•	Secure session management.
+	•	Input validation.
+	•	Protection against unauthorized access.
+	•	Protection against privilege escalation.
+	•	Secure file uploads.
+	•	Appropriate error handling.
+
+Role security
+
+The backend must verify the user’s role before allowing administrative actions.
+
+Students must never be able to:
+	•	Change their own role.
+	•	Approve their own account.
+	•	Change their account status.
+	•	Access another student’s private data.
+	•	Access administrative endpoints.
+
+Administrators must never be able to:
+	•	Assign themselves Super Admin privileges.
+	•	Modify the Super Admin role.
+	•	Override Super Admin permissions.
+	•	Access functionality they have not been authorized to use.
+
+The Super Admin must retain full control.
+
+Never expose:
+	•	Passwords.
+	•	Secret API keys.
+	•	Private service credentials.
+	•	Database service-role keys.
+	•	Authentication secrets.
+
+Do not place sensitive credentials in frontend code.
+
+Use environment variables and secure backend configuration.
+
+⸻
+
+20. CONTENT MANAGEMENT SYSTEM
+
+Create a functional content management system for the Super Admin and authorized administrators.
+
+The content editor must allow authorized users to:
+	•	Create new learning materials.
+	•	Edit existing materials.
+	•	Delete materials.
+	•	Save drafts.
+	•	Publish materials.
+	•	Unpublish materials.
+	•	Assign difficulty levels.
+	•	Assign categories.
+	•	Add explanations.
+	•	Add answer keys.
+	•	Upload audio files.
+	•	Upload images.
+	•	Organize exercises into modules.
+
+Each learning item should have a clear status:
+	•	DRAFT.
+	•	PUBLISHED.
+	•	UNPUBLISHED.
+
+Students must only see content that has been published and made available to them.
+
+The system must not expose draft or unpublished content through unauthorized API requests.
+
+⸻
+
+21. RESPONSIVE DESIGN AND PERFORMANCE
+
+The entire platform must work properly on:
+	•	Desktop computers.
+	•	Laptops.
+	•	Tablets.
+	•	Mobile phones.
+
+Implement:
+	•	Responsive navigation.
+	•	Mobile-friendly dashboards.
+	•	Touch-friendly buttons.
+	•	Responsive tables.
+	•	Mobile-friendly exercise layouts.
+	•	Adaptable audio players.
+	•	Responsive charts.
+	•	Proper text scaling.
+
+Optimize:
+	•	Page loading speed.
+	•	Database queries.
+	•	Image sizes.
+	•	Audio loading.
+	•	Component rendering.
+	•	API requests.
+
+Avoid unnecessary dependencies and excessive resource usage.
+
+⸻
+
+22. ERROR HANDLING AND USER FEEDBACK
+
+Implement clear feedback for all important actions.
+
+Examples:
+	•	Registration successful.
+	•	Registration awaiting approval.
+	•	Login successful.
+	•	Incorrect credentials.
+	•	Account suspended.
+	•	Account rejected.
+	•	Exercise submitted.
+	•	Answers saved.
+	•	Results generated.
+	•	Profile updated.
+	•	Content published.
+	•	Content deleted.
+
+Use:
+	•	Loading indicators.
+	•	Confirmation dialogs.
+	•	Success notifications.
+	•	Error notifications.
+	•	Empty states.
+	•	Form validation.
+	•	Helpful error messages.
+
+Never leave users with buttons that do nothing or pages that fail silently.
+
+⸻
+
+23. QUALITY ASSURANCE AND TESTING
+
+Before considering the platform complete, test all major functionality.
+
+Authentication tests
+	•	Student registration.
+	•	Student login.
+	•	Logout.
+	•	Password recovery.
+	•	Protected routes.
+	•	Session persistence.
+
+Student approval tests
+	•	Pending registration.
+	•	Approval.
+	•	Rejection.
+	•	Suspension.
+	•	Deactivation.
+	•	Restoration.
+
+Role and security tests
+	•	Super Admin access.
+	•	Administrator permissions.
+	•	Student restrictions.
+	•	Backend authorization.
+	•	Direct URL protection.
+	•	API authorization.
+	•	Database access policies.
+	•	Privilege escalation prevention.
+
+Educational functionality tests
+	•	Reading exercises.
+	•	Listening audio playback.
+	•	Listening answer checking.
+	•	Writing submissions.
+	•	Speaking recordings.
+	•	Grammar exercises.
+	•	Vocabulary search.
+	•	Flashcards.
+	•	Mock examinations.
+	•	Scoring.
+	•	Results.
+	•	Progress tracking.
+
+Interface tests
+	•	Desktop layout.
+	•	Tablet layout.
+	•	Mobile layout.
+	•	Navigation.
+	•	Forms.
+	•	Buttons.
+	•	Notifications.
+	•	Loading states.
+	•	Error states.
+
+Fix all major bugs before deployment.
+
+Do not claim a feature works unless it has been implemented and tested.
+
+⸻
+
+24. DEVELOPMENT AND IMPLEMENTATION RULES
+
+Follow these instructions throughout development.
+	1.	Build the actual working application.
+	2.	Do not stop after generating a landing page.
+	3.	Do not create a frontend-only demonstration.
+	4.	Do not use fake data as a replacement for real backend functionality.
+	5.	Do not create empty modules.
+	6.	Do not use repeated questions to reach the required content quantity.
+	7.	Do not use placeholder text for required educational materials.
+	8.	Do not create buttons without functionality.
+	9.	Do not leave navigation links unfinished.
+	10.	Do not implement payment or subscription functionality.
+	11.	Do not create public Super Admin registration.
+	12.	Do not expose administrative privileges to students.
+	13.	Do not use Kazakh or Russian interface text.
+	14.	Do not use Cyrillic characters in the website interface.
+	15.	Do not remove any of the required IELTS modules.
+
+Implementation priority
+
+Build the application in the following order:
+
+Phase 1 — Foundation
+	•	Project architecture.
+	•	Design system.
+	•	Responsive layouts.
+	•	Database connection.
+	•	Authentication.
+	•	Role-based access control.
+	•	Super Admin initialization.
+
+Phase 2 — Account management
+	•	Student registration.
+	•	Pending approval workflow.
+	•	Student management.
+	•	Administrator management.
+	•	Permission management.
+
+Phase 3 — Student experience
+	•	Student dashboard.
+	•	Profile.
+	•	Learning navigation.
+	•	Progress tracking.
+
+Phase 4 — Educational modules
+	•	Reading.
+	•	Listening.
+	•	Writing.
+	•	Speaking.
+	•	Grammar.
+	•	Vocabulary.
+
+Phase 5 — Examinations
+	•	Full IELTS mock tests.
+	•	Scoring.
+	•	Results.
+	•	Performance analytics.
+
+Phase 6 — Administration
+	•	Content management.
+	•	Student analytics.
+	•	Activity logs.
+	•	Platform settings.
+
+Phase 7 — Testing and deployment
+	•	Security testing.
+	•	Functional testing.
+	•	Responsive testing.
+	•	Performance optimization.
+	•	Production deployment.
+
+Do not sacrifice backend functionality or educational content quality to make the interface look finished sooner.
+
+⸻
+
+25. FINAL ACCEPTANCE CRITERIA
+
+The project is complete only when all the following requirements are satisfied.
+
+Platform
+	•	Fully functional website.
+	•	English-only interface.
+	•	Premium responsive design.
+	•	Working navigation.
+	•	Persistent database.
+	•	Secure backend.
+	•	Production-ready architecture.
+
+User management
+	•	Student registration.
+	•	Secure login.
+	•	Pending approval workflow.
+	•	Student approval and rejection.
+	•	Account activation and deactivation.
+	•	Suspension and restoration.
+	•	Super Admin dashboard.
+	•	Administrator dashboard.
+	•	Backend-enforced permissions.
+
+Educational content
+	•	At least 36 complete Reading tasks.
+	•	At least 36 complete Listening tasks.
+	•	At least 36 complete Writing tasks.
+	•	At least 36 complete Speaking tasks.
+	•	At least 36 complete Grammar exercises.
+	•	At least 500 unique Vocabulary entries.
+	•	Multiple complete IELTS Academic mock tests.
+	•	Multiple complete IELTS General Training mock tests.
+
+Functionality
+	•	Actual Reading answer checking.
+	•	Actual Listening audio.
+	•	Actual objective-question scoring.
+	•	Functional Writing submissions.
+	•	Functional Speaking recording.
+	•	Working vocabulary search.
+	•	Working flashcards.
+	•	Saved student progress.
+	•	Examination history.
+	•	Performance analytics.
+
+Administration
+	•	Super Admin account linked to the specified email.
+	•	Complete student management.
+	•	Complete content management.
+	•	Administrator permission management.
+	•	Secure administrative actions.
+	•	Full Super Admin control.
+
+Financial restrictions
+	•	No subscriptions.
+	•	No membership plans.
+	•	No payment gateways.
+	•	No payment methods.
+	•	No billing.
+	•	No checkout.
+	•	No payment-related functionality.
+
+⸻
+
+FINAL INSTRUCTION
+
+Build IELTS MASTER as a complete, functional, production-ready IELTS preparation platform.
+
+Do not generate only a concept, prototype, landing page, or visual representation. Implement the actual application with working frontend, backend, database, authentication, permissions, educational content, and administrative functionality.
+
+Prioritize correctness, security, completeness, authentic IELTS content, and a professional user experience.
+
+If a required external service needs configuration, clearly identify the required configuration and provide the exact setup instructions.
+
+If an integration is unavailable, do not pretend it works. Implement the best reliable alternative and clearly explain any remaining setup requirements.
+
+Before finishing, verify that the application meets every acceptance criterion above.
+
+The Super Admin must have complete and permanent control over student access, administrator permissions, educational content, and platform management.

@@ -1,0 +1,6 @@
+{
+  "name": "IELTS MASTER",
+  "description": "Comprehensive IELTS Academic and General Training platform with 36+ tasks per skill, 36 grammar units, 500+ vocabulary, full mock exams, audio listening, speaking recorder, and admin approval workflows.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
