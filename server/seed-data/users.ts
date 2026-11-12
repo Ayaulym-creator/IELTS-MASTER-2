@@ -1,9 +1,22 @@
 import { User } from '../../src/types/index.js';
-import crypto from 'crypto';
 
+// Isomorphic password hashing that runs identically in Node.js, Netlify Functions, and Browser
 export function hashPassword(password: string): string {
-  return crypto.createHash('sha256').update(password + '_ielts_master_salt_2026').digest('hex');
+  const salted = password + '_ielts_master_salt_2026';
+  let h1 = 0xdeadbeef ^ salted.length;
+  let h2 = 0x41c6ce57 ^ salted.length;
+  for (let i = 0; i < salted.length; i++) {
+    const ch = salted.charCodeAt(i);
+    h1 = Math.imul(h1 ^ ch, 2654435761);
+    h2 = Math.imul(h2 ^ ch, 1597334677);
+  }
+  h1 = Math.imul(h1 ^ (h1 >>> 16), 2246822507) ^ Math.imul(h2 ^ (h2 >>> 13), 3266489909);
+  h2 = Math.imul(h2 ^ (h2 >>> 16), 2246822507) ^ Math.imul(h1 ^ (h1 >>> 13), 3266489909);
+  const p1 = (h1 >>> 0).toString(16).padStart(8, '0');
+  const p2 = (h2 >>> 0).toString(16).padStart(8, '0');
+  return `h_${p1}${p2}`;
 }
+
 
 export const INITIAL_SUPER_ADMIN_EMAIL = 'ayaulymensegen123@gmail.com';
 export const DEFAULT_ADMIN_PASSWORD = hashPassword('IeltsMaster2026!');

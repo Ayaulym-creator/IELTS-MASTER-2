@@ -78,7 +78,8 @@ router.get('/', (req: AuthenticatedRequest, res: Response) => {
 router.get('/pending', (req: AuthenticatedRequest, res: Response) => {
   try {
     const pending = db.getPendingStudents();
-    return res.json({ pending });
+    return res.json({ pending, students: pending });
+
   } catch (err: any) {
     return res.status(500).json({ error: err.message });
   }

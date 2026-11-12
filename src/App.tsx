@@ -223,6 +223,7 @@ function AppContent() {
         return <SettingsPage />;
 
       // Admin & Super Admin Console
+      case 'admin_dashboard':
       case 'admin-dashboard':
         return <SuperAdminDashboardPage onNavigate={navigate} />;
       case 'admin-students':
